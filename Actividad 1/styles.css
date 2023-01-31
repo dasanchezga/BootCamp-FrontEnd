@@ -1,0 +1,100 @@
+Body{
+    Background : #2e3131;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+ul{
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+li{
+    float: left;
+    border-right: 2px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.columns1{
+    margin-top: 0px;
+    column-count:3;
+    column-gap:20px;
+    column-rule:8px ridge rgb(85, 85, 85);
+    color: white;
+    margin-bottom: 50px;
+}
+.columns2{
+    margin-top: 0px;
+    text-align: center;
+    column-count:2;
+    column-gap:20px;
+    column-rule: rgb(85, 85, 85);
+}
+.table1{
+    border-collapse: collapse; 
+    margin: 25px 0; font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgb(255, 250, 250);
+}
+.table1 thead tr { 
+    background-color: white;
+    color: #ffffff; 
+    text-align: middle; 
+}
+.table1 th, .table1 td { 
+    padding: 12px 15px; 
+}
+.table1 tbody tr { 
+    border-bottom: 1px solid #d41111; 
+} 
+.table1 tbody tr:nth-of-type(even) { 
+    background-color: #610909; 
+} 
+.table1 tbody tr:last-of-type { 
+    border-bottom: 2px solid #eaeeed; 
+}
+.t1{
+    color: red;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.t2{
+    color: yellow;
+    font-size: xx-large;
+    font-family:monospace;
+}
+.t3{
+    color: white;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.link{
+    font-size: x-large;
+    color: rgb(255, 136, 0);
+}
+footer{
+    size: 100%;
+    margin-top: 20px;
+    text-align: right;
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+}
